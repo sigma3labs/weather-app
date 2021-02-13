@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app using Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bong-Ninjas/weather-app.git"
+  },
+  "keywords": [],
+  "author": "Rajdeep Ghosh, Parthib Sarkar, Debadyuti Karmakar",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bong-Ninjas/weather-app/issues"
+  },
+  "homepage": "https://github.com/Bong-Ninjas/weather-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
