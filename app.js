@@ -1,6 +1,9 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from 'express';
 import bodyParser from 'body-parser';
 import ejs from "ejs";
+import https from "https";
 
 const app = express();
 
@@ -16,6 +19,13 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     const city = req.body.cityName;
-})
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + process.env.API_KEY + "&units=metric";
+    https.get(url, (response) => {
+        response.on("data", (data) => {
+            const weather = JSON.parse(data);
+            console.log(weather);
+        });
+    });
+});
 
 app.listen(port, () => {console.log('Server started at port', port);});
