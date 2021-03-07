@@ -36,9 +36,9 @@ Weather app made using Nodejs and Expressjs
 
 - `cd` into the project folder
 
-- Create a `.env` file and add the OpenWeatherMap API Key
+- Create a **.env** file and add the OpenWeatherMap API Key
   
-  > Refer to `.env.example` file for example
+  > Refer to **.env.example** file for example
 
 - Run `node app.js`
 
@@ -58,8 +58,8 @@ Weather app made using Nodejs and Expressjs
   - ``` 
     git checkout <branch-name> 
     ```
-- Create a `.env` file and add the OpenWeatherMap API Key
+- Create a **.env** file and add the OpenWeatherMap API Key
   
-  > Refer to `.env.example` file for example
+  > Refer to **.env.example** file for example
 
 - Run `nodemon app.js`
