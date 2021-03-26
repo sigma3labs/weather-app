@@ -1,10 +1,10 @@
 import React from 'react';
 
-const fun = () => {
-    return(
-      <div>
-        <h1>hello world</h1>
-      </div>
-    );
+const App = () => {
+  return(
+    <div>
+      <h1>hello world</h1>
+    </div>
+  );
 }
-export default fun;
+export default App;

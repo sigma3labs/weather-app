@@ -4,7 +4,9 @@
   "description": "Weather app using Nodejs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd client && npm run build",
+    "serve": "nodemon app.js",
+    "start": "cd client && npm start"
   },
   "repository": {
     "type": "git",
