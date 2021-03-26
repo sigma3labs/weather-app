@@ -1,4 +1,7 @@
 # Weather App
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/18359e12-ff87-4a38-ad8e-ac9cb96ed5a9/deploy-status)](https://app.netlify.com/sites/stupefied-feynman-4a6c47/deploys)
+
 Weather app made using Nodejs and Expressjs
 
 
